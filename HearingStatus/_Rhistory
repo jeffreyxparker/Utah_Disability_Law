@@ -1,0 +1,4 @@
+shiny::runApp()
+runApp()
+install.packages("data.table")
+runApp()

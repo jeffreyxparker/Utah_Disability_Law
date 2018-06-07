@@ -1,0 +1,136 @@
+shiny::runApp()
+runApp()
+runApp()
+shiny::runApp()
+?read_csv
+runApp()
+data
+runApp()
+?as_date
+new_data <- read_csv("C:\\Users\\Jeff\\Desktop\\Raw_Report_Data\\BAJ Hearing Status Dec 16 2016.csv")
+View(new_data)
+head(new_data)
+new_data$Status.Date <- mdy(new_data$Status.Date)
+?mdy
+new_data$Status.Date <- mdy(new_data$Status.Date)
+library(lubridate)
+new_data$Status.Date <- mdy(new_data$Status.Date)
+View(new_data)
+View(new_data)
+data <- "5/11/2015"
+date <- "5/11/2015"
+date
+mdy(date)
+new_data$Status.Date <- mdy(new_data$Status.Date)
+new_data$`Status Date` <- mdy(new_data$`Status Date`)
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+head(new_data)
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+subsetted_data <- filter(subsetted_data, subsetted_data$attorney == input$caseload_attorney)
+bar <- ggplot(data = new) +
+geom_bar(mapping = aes(x = `Status of Case`)) +
+coord_flip() +
+labs(y = paste("Last File Received",as.character(max(subsetted_data$report_date))), x = NULL)
+bar <- ggplot(data = new) +
+geom_bar(mapping = aes(x = `Status of Case`)) +
+coord_flip() +
+labs(y = "Last File Received", x = NULL)
+bar
+bar <- ggplot(data = new_data) +
+geom_bar(mapping = aes(x = `Status of Case`)) +
+coord_flip() +
+labs(y = "Last File Received", x = NULL)
+bar
+workflow_order <- c("PENDING FOLDER ASSEMBLY",
+"FOLDER ASSEMBLY",
+"PRE HEARING REVIEW",
+"PRE HEARING DEVELOPMENT",
+"READY TO SCHEDULE",
+"SCHEDULED HEARING",
+"POST HEARING REVIEW",
+"POST HEARING DEVELOPMENT",
+"PENDING DECISION WRITING",
+"DECISION WRITING PROCESS",
+"CASE CLOSED")
+new_data$`Status of Case` <- factor(new_data$`Status of Case`,levels = workflow_order)
+bar <- ggplot(data = new_data) +
+geom_bar(mapping = aes(x = `Status of Case`)) +
+coord_flip() +
+labs(y = "Last File Received", x = NULL)
+bar
+new_data <- read_csv("C:\\Users\\Jeff\\Desktop\\Raw_Report_Data\\BAJ Hearing Status Dec 16 2016.csv")
+workflow_order <- c("PENDING FOLDER ASSEMBLY",
+"FOLDER ASSEMBLY",
+"PRE HEARING REVIEW",
+"PRE HEARING DEVELOPMENT",
+"READY TO SCHEDULE",
+"SCHEDULED HEARING",
+"PENDING REVIEW",
+"POST HEARING REVIEW",
+"POST HEARING DEVELOPMENT",
+"PENDING DECISION WRITING",
+"DECISION WRITING PROCESS",
+"CASE CLOSED",
+"CASE PERMANENTLY TRANSFERRED")
+new_data <- read_csv("C:\\Users\\Jeff\\Desktop\\Raw_Report_Data\\BAJ Hearing Status Dec 16 2016.csv")
+new_data$`Status of Case` <- factor(new_data$`Status of Case`,levels = workflow_order)
+bar <- ggplot(data = new_data) +
+geom_bar(mapping = aes(x = `Status of Case`)) +
+coord_flip() +
+labs(y = "Last File Received", x = NULL)
+bar
+new_data$`Status of Case` <- factor(new_data$`Status of Case`, levels = rev(levels(workflow_order))))
+new_data$`Status of Case` <- factor(new_data$`Status of Case`,levels = rev(workflow_order))
+bar <- ggplot(data = new_data) +
+geom_bar(mapping = aes(x = `Status of Case`)) +
+coord_flip() +
+labs(y = "Last File Received", x = NULL)
+bar
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
+runApp()
